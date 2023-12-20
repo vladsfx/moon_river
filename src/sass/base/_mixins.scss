@@ -1,0 +1,28 @@
+@mixin price($color_name, $color_descr, $color_price){
+    .product_name {
+        color: $color_name;
+        font-family: 'Futura';
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+
+    .product_descr {
+        color: $color_descr;
+        font-family: 'Futura';
+        font-size: 18px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .product_price {
+        color: $color_price;
+        font-family: 'Segoe';
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.54px;
+        margin-top: 10px;
+    }
+
+}

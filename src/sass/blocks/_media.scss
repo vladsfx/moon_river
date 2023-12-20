@@ -1,0 +1,610 @@
+@media screen and (max-width: 1439px) {
+    section {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 0 100px;
+    }
+
+    .promo {
+        &__about {
+            &-header {
+                h1 {
+                    font-size: 56px;
+                    padding-bottom: 25px;
+                }
+
+                a {
+                    right: -100px;
+                }
+            }
+        }
+
+        &__nav {
+            &-img {
+                img {
+                    width: 78%;
+                }
+            }
+        }
+    }
+
+    .products {
+        &__item {
+            img {
+                margin-top: 1.5rem;
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 70px;
+    }
+
+    .promo {
+        height: 860px;
+
+        &__about {
+            &-header {
+                h1 {
+                    font-size: 50px;
+                }
+
+                a {
+                    font-size: 16px;
+                    bottom: -9px;
+                    right: -80px;
+                }
+            }
+
+            &-logo {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+
+        &__actions {
+            width: 220px;
+        }
+
+        &__nav {
+            &-img {
+                img {
+                    width: 64%;
+                }
+            }
+        }
+    }
+
+    .selection {
+        &__descr {
+            &-link {
+                font-size: 22px;
+            }
+
+            &-header {
+                font-size: 54px;
+            }
+
+        }
+    }
+
+    .search {
+        height: 550px;
+
+        &__wrapper {
+            &-header {
+                font-size: 41px;
+            }
+
+            &-descr {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .products {
+        grid-template-columns: 1fr 1.7fr 1fr;
+
+        .product_name {
+            font-size: 14px;
+        }
+
+        .product_descr {
+            font-size: 16px;
+        }
+
+        .product_price {
+            font-size: 16px;
+        }
+
+        &__item {
+            img {
+                margin-top: 1rem;
+            }
+
+            &-info {
+                padding: 0 0 10px 30px;
+            }
+        }
+
+        &__woman {
+            &-info {
+                bottom: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .promo {
+        &__about {
+            &-header {
+                h1 {
+                    font-size: 36px;
+                }
+
+                a {
+                    font-size: 12px;
+                    bottom: -7px;
+                    right: -90px;
+                }
+            }
+
+            &-logo {
+                img {
+                    width: 60%;
+                }
+            }
+        }
+
+        &__actions {
+            width: 200px;
+
+            &-links {
+                width: 115px;
+
+                a {
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+
+        &__hamburger {
+            img {
+                width: 80%;
+            }
+        }
+
+        &__nav {
+            &-img {
+                left: -37%;
+
+                img {
+                    width: 55%;
+                }
+            }
+        }
+
+        &__info {
+            .product_name {
+                font-size: 14px;
+            }
+
+            .product_descr {
+                font-size: 16px;
+            }
+
+            .product_price {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .selection {
+        padding-top: 10px;
+        column-gap: 10px;
+
+        &__descr {
+            &-link {
+                font-size: 20px;
+                line-height: 16px;
+            }
+
+            &-header {
+                font-size: 48px;
+                line-height: 36px;
+            }
+
+        }
+    }
+
+    .search {
+        padding-top: 10px;
+        height: 550px;
+
+        &__wrapper {
+            &-header {
+                font-size: 30px;
+            }
+
+            &-descr {
+                font-size: 12px;
+            }
+
+            &-input {
+                input {
+                    min-width: 85%;
+                    font-size: 12px;
+                }
+
+                button {
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+
+    .products {
+        padding-top: 10px;
+        column-gap: 10px;
+
+        .product_price {
+            margin-top: 5px;
+            line-height: 16px;
+        }
+
+        .product_descr {
+            margin-top: 5px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        &__rings,
+        &__earrings {
+            row-gap: 10px;
+        }
+
+        &__item {
+            &-info {
+                padding: 0 0 10px 10px;
+            }
+        }
+
+        &__woman {
+            &-info {
+                left: 10px;
+            }
+        }
+    }
+
+    .social{
+        &__control{
+            padding: 30px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .promo {
+        max-height: 690px;
+
+        &__about {
+            &-header {
+                h1 {
+                    font-size: 24px;
+                }
+
+                a {
+                    font-size: 9px;
+                    bottom: -6px;
+                    right: -84px;
+                }
+            }
+
+            &-logo {
+                img {
+                    width: 45%;
+                }
+            }
+
+            &-btn {
+                font-size: 14px;
+            }
+        }
+
+        &__actions {
+            width: 155px;
+
+            &-links {
+                width: 95px;
+
+                a {
+                    img {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+
+        &__hamburger {
+            img {
+                width: 70%;
+            }
+        }
+
+        &__nav {
+            &-img {
+                left: -36%;
+
+                img {
+                    width: 52%;
+                }
+            }
+        }
+
+        &__info {
+            .product_name {
+                font-size: 12px;
+            }
+
+            .product_descr {
+                font-size: 14px;
+            }
+
+            .product_price {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .selection {
+        &__descr {
+            &-link {
+                font-size: 16px;
+                line-height: 12px;
+            }
+
+            &-header {
+                font-size: 32px;
+                line-height: 24px;
+                letter-spacing: 1.2px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .search {
+        height: 430px;
+
+        &__wrapper {
+            &-header {
+                font-size: 24px;
+            }
+
+            &-descr {
+                font-size: 10px;
+            }
+
+            &-input {
+                input {
+                    min-width: 82%;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .products {
+        grid-template: repeat(3, auto) / auto;
+        justify-content: center;
+        column-gap: normal;
+        row-gap: 10px;
+
+        .product_name {
+            font-size: 16px;
+            line-height: normal;
+        }
+
+        .product_descr,
+        .product_price {
+            font-size: 18px;
+            line-height: normal;
+            margin-top: 10px;
+        }
+
+        &__woman {
+            order: 0;
+
+            &-info {
+                left: 30px;
+                bottom: 20px;
+            }
+        }
+
+        &__item {
+            img {
+                width: 80%;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+            }
+
+            &-info {
+                padding: 0 0 20px 30px;
+            }
+
+        }
+
+        &__rings {
+            order: 1;
+        }
+
+        &__earrings {
+            grid-template-rows: repeat(2, auto);
+        }
+    }
+
+    .social{
+        &__control{
+            flex-direction: column;
+        }
+        &__arrows{
+            width: 100%;
+            order: 1;
+        }
+        &__links{
+            order: 2;
+            margin-top: 40px;
+            column-gap: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .promo {
+        max-height: 390px;
+
+        &::before {
+            width: 45%;
+        }
+
+        &__wrapper {
+            grid-template-columns: 55% 45%;
+            padding: 30px 0;
+        }
+
+        &__about {
+            &-header {
+                h1 {
+                    font-size: 20px;
+                    padding-bottom: 5px;
+                }
+
+                a {
+                    font-size: 10px;
+                    bottom: -29px;
+                    right: 25px;
+                }
+            }
+
+
+            &-logo {
+                img {
+                    width: 45%;
+                }
+            }
+
+            &-btn {
+                font-size: 14px;
+            }
+        }
+
+
+        &__actions {
+            width: 120px;
+
+            &-links {
+                width: 75px;
+
+                a {
+                    img {
+                        width: 60%;
+                    }
+                }
+            }
+        }
+
+        &__hamburger {
+            img {
+                width: 60%;
+            }
+        }
+
+        &__nav {
+            &-img {
+                left: -15%;
+
+                img {
+                    width: 60%;
+                }
+            }
+        }
+
+        &__info {
+            .product_name {
+                font-size: 10px;
+            }
+
+            .product_descr {
+                font-size: 12px;
+            }
+
+            .product_price {
+                font-size: 12px;
+            }
+        }
+    }
+
+
+    .selection {
+        max-height: 961px;
+        padding-top: 5px;
+        grid-template: repeat(2, auto) / auto;
+        column-gap: normal;
+        row-gap: 5px;
+    }
+
+    .search {
+        padding-top: 5px;
+        min-height: 646px;
+        grid-template: 1fr 2fr / auto;
+        column-gap: normal;
+
+        &__wrapper {
+            padding: 40px 0;
+
+            &-header {
+                font-size: 24px;
+            }
+
+            &-descr {
+                font-size: 10px;
+            }
+
+            &-input {
+                input {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .social{
+        &__header{
+            font-size: 24px;
+            padding: 50px 0;
+        }
+    }
+}

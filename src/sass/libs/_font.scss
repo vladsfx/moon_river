@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Forum';
+	font-display: swap;
+	src: local('Forum'),
+		url('../fonts/Forum-Regular.woff2') format('woff2'),
+		url('../fonts/Forum-Regular.woff') format('woff'),
+		url('../fonts/Forum-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe';
+	font-display: swap;
+	src: local('Segoe UI Italic'),
+		url('../fonts/SegoeUI-Italic.woff2') format('woff2'),
+		url('../fonts/SegoeUI-Italic.woff') format('woff'),
+		url('../fonts/SegoeUI-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-display: swap;
+	src: local('Futura PT'),
+		url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Book.woff') format('woff'),
+		url('../fonts/FuturaPT-Book.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura';
+	font-display: swap;
+	src: local('Futura PT'),
+		url('../fonts/FuturaPT-Light.woff2') format('woff2'),
+		url('../fonts/FuturaPT-Light.woff') format('woff'),
+		url('../fonts/FuturaPT-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

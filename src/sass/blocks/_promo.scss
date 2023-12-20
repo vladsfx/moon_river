@@ -1,0 +1,123 @@
+.promo {
+    position: relative;
+    height: 1024px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        right: 0;
+        background-color: $black;
+    }
+
+    &__wrapper {
+        padding: 70px 0 60px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 63% 37%;
+    }
+
+    &__about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+
+        &-header {
+            position: relative;
+
+            h1 {
+                color: $black;
+                font-family: 'Forum';
+                font-size: 64px;
+                font-weight: 400;
+                letter-spacing: 1.92px;
+                padding-bottom: 30px;
+            }
+
+            a {
+                display: block;
+                position: absolute;
+                bottom: -12px;
+                right: -75px;
+                color: $black;
+                font-family: 'Segoe';
+                font-size: 18px;
+                font-weight: 300;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &-lang {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 10px;
+        }
+
+        .color-black {
+            color: $black;
+        }
+
+        &-btn {
+            border: none;
+            background-color: transparent;
+            text-transform: uppercase;
+            color: #c4c4c4;
+            font-family: 'Futura';
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.8px;
+
+            &:hover {
+                background-color: #f3f3f3;
+            }
+        }
+    }
+
+    &__nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        position: relative;
+        z-index: 3;
+
+        &-img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -36%;
+        }
+    }
+
+    &__actions {
+        width: 256px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-links {
+            width: 132px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__hamburger {
+        cursor: pointer;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        @include price($white, $l_gray, $gold);
+    }
+}

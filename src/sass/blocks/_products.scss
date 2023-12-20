@@ -1,0 +1,61 @@
+.products {
+    padding-top: 20px;
+    // height: 840px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    column-gap: 20px;
+
+    &__woman {
+        position: relative;
+        order: 2;
+
+        img {
+            max-width: 100%;
+            //max-height: 100%;
+            object-fit: cover;
+        }
+
+        &-info {
+            position: absolute;
+            left: 30px;
+            bottom: 20px;
+
+            @include price($white, $w_gray, $white_gold);
+        }
+    }
+
+    &__rings {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+        order: 0;
+    }
+
+    &__earrings {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+        order: 3;
+    }
+
+    &__item {
+        background-color: #EDEDED;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            max-width: 100%;
+            margin-top: 3rem;
+        }
+
+        &-info {
+            align-self: start;
+            padding: 0 0 20px 30px;
+
+            @include price($black, $d_gray, $gold)
+        }
+    }
+
+}
